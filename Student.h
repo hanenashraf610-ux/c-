@@ -1,12 +1,12 @@
 #include<iostream>
 #ifndef STUDENT_H
 #define STUDENT_H
-#include<Person.h>
+#include"Person.h"
 using namespace std;
 class Student:public Person
 {
     private:
-    string university
+    string university;
     public:
     Student()
     {
@@ -33,7 +33,8 @@ this->university=university;
     void print()
     {
         Person::print();
-        cout<<"you university is"<<university;
+        cout<<"you university is"<<university<<endl;
 
     }
-}#endif//STUDENT_H
+};
+#endif//STUDENT_H

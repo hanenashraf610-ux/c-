@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
-#include<Person.h>
-#include<Student.h>
+#include"Person.h"
+#include"Student.h"
 
 int main()
 {

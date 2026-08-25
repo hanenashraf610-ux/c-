@@ -8,12 +8,12 @@ class Person
     string name;
     int age;
     public:
-    person()
+    Person()
     {
         name="no name";
         age=-1;
     }
-    person(string name,int age)
+    Person(string name,int age)
     {
 this->name=name;
 this->age=age;
@@ -47,4 +47,5 @@ this->age=age;
         cout<<"the name is:"<<name<<endl;
         cout<<"the age is:"<<age<<endl;
     }
-}
+};
+#endif
